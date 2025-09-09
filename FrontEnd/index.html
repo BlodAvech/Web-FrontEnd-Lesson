@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My First Webpage</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+	
+	<!--Basic content-->
+	<img src="img/photo_2025-09-09_12-49-52.png" alt="My Photo" width="200">
+	<h1>Erkhan Piriyev</h1>
+	<h2>Software Engineering</h2>
+	<h3 id = "about">About Me</h3>
+	
+	<p>
+		I don't fear Hell, Hell fears me &#128520;.<br>
+		I am a student of Astana IT University. 
+		I also playing DOTA 2 and sometimes CS:GO.
+		I am currently studying Software Engineering on 2 course. 
+		My interests are listed below.
+	</p>
+	
+		<hr>
+			<!--Site navigation-->
+	<table class="layout-table">
+		<tr>
+				<td class="menu-column">
+					<h4>Menu</h4>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#schedule">Schedule</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</td>
+				<td class="content-column">
+					<h4>Main Content</h4>
+					<p>This is a site about basic information about me</p>
+				</td>
+			</tr>
+		</table>
+		
+	<hr>
+
+	<!--Lists of hobbies-->
+	<h3>My Hobbies</h3>
+	<ol>
+		<li>GameDev</li>
+		<li>3D Modeling</li>
+		<li>Photoshop</li>
+		<li>Video Edits</li>
+		<li>3D Painting</li>
+	</ol>
+	
+		<!--Lists of websites-->
+	<h3>My Favorite Websites</h3>
+	<ul>
+		<li><a href="https://rezka-ua.tv/" target="_blank">HDRezka</a></li>
+		<li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+		<li><a href="https://itch.io/" target="_blank">Itch.io</a></li>
+	</ul>
+	
+	
+	<br><br>
+	
+	<button>Click Me</button>
+	
+	<!--Table of schedule table size 3 x 3 -->
+
+	<h3 id ="schedule">My Weekly Schedule</h3>
+	<table>
+		<tr>
+				<th>Subject</th>
+				<th>Day</th>
+				<th>Time</th>
+		</tr>
+		<tr>
+				<td>WebDev</td>
+				<td>Monday</td>
+				<td>16:<sup>00</sup></td>
+		</tr>
+		<tr>
+				<td>Operating Systems</td>
+				<td>Wednesday</td>
+				<td>12:<sup>00</sup></td>
+			</tr>
+			<tr>
+				<td>Design Patterns</td>
+				<td>Friday</td>
+				<td>14:<sup>00</sup></td>
+			</tr>
+		</table>
+
+	<!--Contact form-->
+	<h3 id = "contact">Contact Form</h3>
+	<form>
+		<label for="name">Name:</label><br>
+		<input type="text" id="name" name="name" placeholder="Your Name"><br><br>
+		
+		<label for="email">Email:</label><br>
+		<input type="email" id="email" name="email" placeholder="Your email"><br><br>
+		
+		<label for="color">Favorite Color:</label><br>
+		<input type="color" id="color" name="color"><br><br>
+		
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
